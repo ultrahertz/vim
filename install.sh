@@ -38,7 +38,7 @@ if ! ctags --version | grep -q "Exuberant" ; then
   exit 1
 fi
 
-endpath="$HOME/.haskell-vim-now"
+endpath="$HOME/.vim"
 
 if [ ! -e $endpath/.git ]; then
   msg "Cloning begriffs/haskell-vim-now"
